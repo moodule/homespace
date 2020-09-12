@@ -10,7 +10,7 @@ GLOBAL
 - [x] move the wrangling scripts into the data folder
 - [x] use poetry for dep management, instead of pipenv
 - [x] move the scraping scripts into the data folder
-- [x] keep only the modules in homespace
+- [x] keep only the modules in adspying
 - [ ] move the serialized data out of the project
 - [ ] save all the data in mongodb
 - [ ] move relevant sections to README (workflow, overall steps)

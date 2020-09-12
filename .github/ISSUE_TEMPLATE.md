@@ -1,4 +1,4 @@
-* Homespace Moodule version:
+* Adspying Moodule version:
 * Python version:
 * Operating System:
 

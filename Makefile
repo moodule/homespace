@@ -33,7 +33,7 @@ clean-pyc: ## remove Python file artifacts
 clean-test: ## remove test and coverage artifacts
 
 lint: ## check style with flake8
-	$(ENVIRONMENT) flake8 homespace tests
+	$(ENVIRONMENT) flake8 adspying tests
 
 test: ## run tests quickly with the default Python
 	$(ENVIRONMENT) python -m unittest

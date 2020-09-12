@@ -1,5 +1,5 @@
 =================
-Homespace Moodule
+Adspying Moodule
 =================
 
 Find the best deals on second-hand ads websites :dart:
@@ -51,4 +51,4 @@ This package was created with Cookiecutter_ and the `audreyfeldroy/cookiecutter-
 .. _`contribution guidelines`: CONTRIBUTING.rst
 .. _`Cookiecutter`: https://github.com/audreyfeldroy/cookiecutter/
 .. _`MIT license`: .github/LICENSE
-.. _`readthedocs`: https://readthedocs.org/projects/homespace/
+.. _`readthedocs`: https://readthedocs.org/projects/adspying/

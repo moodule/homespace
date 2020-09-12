@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/moodule/homespace/issues.
+Report bugs at https://github.com/moodule/adspying/issues.
 
 If you are reporting a bug, please include:
 
@@ -38,14 +38,14 @@ and "help wanted" is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-Homespace Moodule could always use more documentation, whether as part of the
-official homespace Moodule docs, in docstrings, or even on the web in blog posts,
+Adspying Moodule could always use more documentation, whether as part of the
+official adspying Moodule docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/moodule/homespace/issues.
+The best way to send feedback is to file an issue at https://github.com/moodule/adspying/issues.
 
 If you are proposing a feature:
 
@@ -57,12 +57,12 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `homespace` for local development.
+Ready to contribute? Here's how to set up `adspying` for local development.
 
-1. Fork the `homespace` repo on GitHub.
+1. Fork the `adspying` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/homespace.git
+    $ git clone git@github.com:your_name_here/adspying.git
 3. Assuming you have poetry installed, you can **create a new environment with all the dependencies** by typing::
 
     $ make init
@@ -102,7 +102,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.7, 3.5, 3.6 and 3.7, and for PyPy. Check
-   https://travis-ci.org/moodule/homespace/pull_requests
+   https://travis-ci.org/moodule/adspying/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Add a New Test
@@ -139,7 +139,7 @@ Tips
 
 To run a subset of tests::
 
-$ pytest tests.test_homespace
+$ pytest tests.test_adspying
 
 
 Deploying

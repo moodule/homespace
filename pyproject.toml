@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "homespace"
+name = "adspying"
 version = "0.1.1"
 description = "Find the best deals on second-hand ads websites :dart:"
 license = "MIT"
 authors = ["moodule <moodule@protonmail.com>"]
 readme = ".github/README.rst"
-repository = "https://github.com/moodule/homespace.git"
+repository = "https://github.com/moodule/adspying.git"
 keywords = ["scraping", "scrapy-crawler", "second-hand ads", "real-estate"]
 classifiers = [
   "Development Status :: 3 - Alpha",

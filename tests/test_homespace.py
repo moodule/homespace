@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `homespace` package."""
+"""Tests for `adspying` package."""
 
-from homespace import _wrangling
+from adspying import _wrangling
