@@ -16,15 +16,11 @@ classifiers = [
 python = "^3.7"
 beautifulsoup4 = "*"
 geopy = "*"
-googlemaps = {version = "*", optional = true}
 nltk = "*"
-numpy = {version = "*", optional = true}
-pandas = {version = "*", optional = true}
 pymongo = "*"
 scrapy = "*"
 
 [tool.poetry.dev-dependencies]
-pytest = "*"
 flake8 = "*"
 sphinx = "*"
 

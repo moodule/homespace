@@ -13,7 +13,6 @@ from __future__ import absolute_import, division, print_function
 from bs4 import BeautifulSoup
 from datetime import datetime
 from nltk.metrics.distance import edit_distance
-import numpy as np
 import re
 import unicodedata
 
@@ -73,9 +72,9 @@ def format_text(
     return remove_extra_spacing(remove_accents(text.lower()))
 
 def format_number(
-        text: str):
+        text: str) -> float:
     """
-    Convert strings to numpy float.
+    Convert strings to float.
 
     Parameters
     ----------
@@ -84,7 +83,7 @@ def format_number(
 
     Returns
     -------
-    out: np.float64.
+    out: float.
         The formated text.
     """
     __as_text = format_text(text)
@@ -92,16 +91,16 @@ def format_number(
         '([-+]?[0-9]+\.?[0-9]*).*',
         format_text(text))
     if __is_a_number:
-        return np.float64(__is_a_number.group(1))
+        return float(__is_a_number.group(1))
     else:
-        return np.float64(np.nan)
+        return None
 
 #####################################################################
 # TEXT
 #####################################################################
 
 def remove_accents(
-        text: str):
+        text: str) -> str:
     """
     Replace all the accented character with regular characters.
 
