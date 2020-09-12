@@ -125,7 +125,7 @@ class SecondHandAdsSpider(scrapy.Spider):
         self._icon = 'marker'
 
         # enable specific pipelines
-        self._pipelines = ['CsvPipeline', 'HtmlTablePipeline', 'JsonPipeline', 'MongoDbPipeline']
+        self._pipelines = ['MongoDbPipeline']
 
     def start_requests(
             self):
