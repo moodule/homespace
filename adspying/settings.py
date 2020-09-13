@@ -21,7 +21,7 @@ NEWSPIDER_MODULE = 'adspying.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 __useragents_file_path = os.path.join(
 		os.path.dirname(os.path.realpath(__file__)),
-		"_data/user-agents_mid.txt")
+		"_user-agents.txt")
 with open(__useragents_file_path, 'r') as __useragents_file:
 	USER_AGENT_LIST = [line for line in __useragents_file.readlines()]
 USER_AGENT = random.choice(USER_AGENT_LIST)
